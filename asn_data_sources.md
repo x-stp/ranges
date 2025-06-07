@@ -22,11 +22,13 @@ These are the primary sources directly from the official RIRs:
   "https://ftp.lacnic.net/lacnic/dbase/lacnic.db.gz": "lacnic.db",
   "https://ftp.ripe.net/ripe/dbase/ripe.db.gz": "ripe.db"
 }
+```
 
 🛰️ Additional IRR Mirrors
 
 These databases are maintained by ISPs, NRENs, and IRR mirrors around the world:
 
+```json
 {
   "ftp://ftp.altdb.net/pub/altdb/altdb.db.gz": "altdb.db",
   "ftp://whois.in.bell.ca/bell.db.gz": "bell.db",
@@ -42,32 +44,33 @@ These databases are maintained by ISPs, NRENs, and IRR mirrors around the world:
   "ftp://ftp.radb.net/radb/dbase/reach.db.gz": "reach.db",
   "ftp://ftp.bgp.net.br/tc.db.gz": "tc.db"
 }
+```
 
-🗂 Additional IPv4/IPv6 and ASN Statistics
+🗂 **Additional IPv4/IPv6 and ASN Statistics**
 
 Provided by Geoff Huston's Potaroo:
 
-    IPv4 Allocated: https://bgp.potaroo.net/stats/allocspace-prefix.txt
+-   IPv4 Allocated: https://bgp.potaroo.net/stats/allocspace-prefix.txt
 
-    IPv4 Free: https://bgp.potaroo.net/stats/freespace-prefix.txt
+-    IPv4 Free: https://bgp.potaroo.net/stats/freespace-prefix.txt
 
-    IPv6 Allocated: https://bgp.potaroo.net/stats/allocspace-prefix6.txt
+-    IPv6 Allocated: https://bgp.potaroo.net/stats/allocspace-prefix6.txt
 
-    IPv6 Free: https://bgp.potaroo.net/stats/freespace-prefix6.txt
+-    IPv6 Free: https://bgp.potaroo.net/stats/freespace-prefix6.txt
 
-Historical / Archive
+**Historical / Archive**
 
     IANA IPv6 Assignments:
-    https://bgp.potaroo.net/stats/iana/archive/2022/06/ipv6-unicast-address-assignments-20220618.xml
+-    https://bgp.potaroo.net/stats/iana/archive/2022/06/ipv6-unicast-address-assignments-20220618.xml
 
     ASN Allocation:
-    https://bgp.potaroo.net/stats/iana/archive/2022/06/as-numbers-20220618.xml
+-    https://bgp.potaroo.net/stats/iana/archive/2022/06/as-numbers-20220618.xml
 
     IPv4 Address Space:
-    https://bgp.potaroo.net/stats/iana/archive/2022/06/ipv4-address-space-20220618.xml
+-    https://bgp.potaroo.net/stats/iana/archive/2022/06/ipv4-address-space-20220618.xml
 
     Reserved Advertised IPv4:
-    https://bgp.potaroo.net/stats/apnic/reserved_advertised_ipv4.txt
+-    https://bgp.potaroo.net/stats/apnic/reserved_advertised_ipv4.txt
 
     Reserved Unadvertised IPv4:
     https://bgp.potaroo.net/stats/apnic/reserved_unadvertised_ipv4.txt
